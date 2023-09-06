@@ -1,0 +1,42 @@
+Class notes
+
+
+Life Cycle Components
+4 method stage
+1. Mounting
+2. Updating
+3. Unmounting
+4. Error Handling
+
+1. When components get created it passes from several stages
+2. It can overrides at particular stages in the life cycle
+
+
+1. Morning - this method is called when an instance of component is being created and inserted in the don
+
+2.Updating - When components is being be rendered as a result of changes to effect it's props or states
+
+3. Unmounting this method is called when a component is being removed from the Dom
+
+4. Error Handling this method is called when there is an error in rendering life cycle method or in the constructor of any child method
+
+
+Mounting 
+1 constructor()
+2 Staticmethod-getderivedstatefromprops()
+3 render()
+4.componentdidmount()
+
+Updating
+1 Staticmethod-getderivedstatefromprops()
+2. Should componentforupdate()
+3. Render()
+4. Gets aahot before update()
+5.componentdidupdate()
+
+Unmounting
+Componentwillunmount()
+
+Error Handling
+1 static method - getDerivedstateFromerror()
+2.componentReadCatch()
